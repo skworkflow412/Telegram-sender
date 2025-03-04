@@ -1,4 +1,6 @@
-Flask
+flask
 telethon
 mysql-connector-python
 python-dotenv
+requests
+gunicorn
