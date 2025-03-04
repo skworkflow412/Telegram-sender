@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram API Credentials
-API_ID = int(os.getenv("API_ID", 0))
-API_HASH = os.getenv("API_HASH", "")
+API_ID = int(os.getenv("API_ID", "28597362"))
+API_HASH = os.getenv("API_HASH", "594f16e2cf9a6173bdf7a1cca942d94c")
 SESSION_NAME = os.getenv("SESSION_NAME", "my_session")
 
 # MySQL Configuration
